@@ -1,0 +1,60 @@
+h3 {
+	color: Green;
+}
+
+#p2 {
+  color: red;
+  
+}
+
+.fontandcolour{
+	 font-family: Arial, sans-serif;
+     color: darkgreen;
+}
+.modifyul {
+  border: 2px solid black;
+  width: 200px;
+  height:100px;
+}
+.linkbox{
+	border: 2px solid black;
+  width: 200px;
+  height:100px;
+  position:relative;
+}
+#a1{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+#abc1{
+	position:fixed;
+	top:100px;
+	left:500px;
+	color:hotpink;
+	z-index:500;
+	
+}
+#abc2{
+	position:fixed;
+	top:100px;
+	left:500px;
+	color:black;
+	z-index:400;
+	
+}
+#abc3{
+	position:fixed;
+	top:100px;
+	left:500px;
+	color:yellow;
+	z-index:300;
+	
+}
+.longpara{
+	border: 2px solid black;
+  width: 200px;
+  height:100px;
+  overflow:auto
+	
+}
