@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab Task 3</title>
+</head>
+<body>
+  <h1>Lab Task 3</h1>
+
+  <div class="section" id="counterSection">
+    <label>1. Counter</label>
+    <label for="counterBox">Count:</label>
+    <input id="counterBox" type="number" value="0" >
+	<br>
+	<br>
+    <button id="plusBtn" type="button">+</button>
+    <button id="minusBtn" type="button">-</button>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div class="section" id="bmiSection">
+    <label>2. BMI Calculator</label>
+    <label for="height">Height (cm):</label>
+    <input id="height" type="number" min="1">
+    <br>
+    <br>
+    <br>
+    <label for="weight">Weight (kg):</label>
+    <input id="weight" type="number" min="1">
+    <br>
+    <br>
+    <br>
+    <button id="bmiBtn" type="button">Calculate BMI</button>
+    <label for="bmiResult"> BMI Result:</label>
+    <span id="bmiResult"></span>
+  </div>
+   <br>
+  <br>
+  <br>
+  <div class="section" id="colorSection">
+    <label>3. Change Box Text Color</label>
+    <label for="colorInput">Text Color:</label>
+    <input id="colorInput" type="text">
+    <button id="colorBtn" type="button">Change Color</button>
+    <div id="colorBox" style="margin-top:10px; border:1px solid #aaa; padding:6px;">
+      It is a box with dynamic color
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div class="section" id="authSection">
+    <label>4. Form Authorization</label>
+    <label for="username">Username:</label>
+    <input id="username" type="text">
+    <br>
+    <br>
+    <label for="password">Password:</label>
+    <input id="password" type="password">
+    <br>
+    <br>
+    <label for="Cpassword">Confirm Password:</label>
+    <input id="Cpassword" type="password">
+    <br>
+    <br>
+    <button id="btn1" type="button">Log in</button>
+    <br>
+    <span id="authResult"></span>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <script src="lab3.js"></script>
+</body>
+</html>
