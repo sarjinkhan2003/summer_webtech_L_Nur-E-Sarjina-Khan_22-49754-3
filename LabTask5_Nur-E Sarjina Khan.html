@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+  
+  <title>Form Creation and Validation</title>
+  <link rel="stylesheet" href="LabTask5_Nur-E Sarjina Khan.css">
+  <script src="LabTask5_Nur-E Sarjina Khan.js"></script> 
+</head>
+<body>
+  <h3>Registration Form</h3>
+  <form onsubmit="return validateForm()">
+    <label for="n">Name</label>
+    <input id="n" type="text">
+    <br>
+    
+    <label for="e">Email</label>
+    <input id="e" type="email">
+    <br>
+    
+    <label for="a">Age</label>
+    <input id="a" type="number" min="1">
+    <br>
+    
+    <label for="cs">Course Selection</label>
+    <select id="cs">
+      <option value="">--Select a course--</option>
+      <option>Web Technology</option>
+      <option>Theory of Computation</option>
+      <option>Artificial Intelligence</option>
+      <option>Computer Network</option>
+      <option>Natural Language Processing</option>
+    </select>
+    <br>
+    
+    <input type="submit" value="Submit">
+  </form>
+  
+  <button onclick="showImage()">Show Image</button>
+  <button onclick="hideImage()">Hide Image</button>
+<br>
+  <img id="image" src="TOM-JERRY065044.avif" alt="Placeholder Image">
+  
+</body>
+</html>
